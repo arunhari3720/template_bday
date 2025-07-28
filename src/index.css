@@ -1,0 +1,19 @@
+html, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: #fff;
+  position:relative;
+}
+body {
+  display: flex;
+  align-items: center;    /* vertical center */
+  justify-content: center; /* horizontal center */
+  flex-direction: column;  /* stack vertically */
+  text-align: center;
+  background: #ffeef8;     /* light pink background or your choice */
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;        /* Optional: prevent scroll */
+}
